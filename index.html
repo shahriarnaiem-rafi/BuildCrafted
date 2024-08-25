@@ -9,6 +9,14 @@
     <!-- font awsome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
+     <!-- google font manrope -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+
+
     <!-- daisyUi link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -30,8 +38,13 @@
           }
         }
       </script>
+      <style>
+        .font{
+          font-family: "Manrope", sans-serif;
+        }
+      </style>
 </head>
-<body>
+<body class="font">
 
     <header class="mx-auto lg:px-24 px-8">
         <!-- navbar -->
@@ -325,17 +338,41 @@
 
         </div>
       </section>
-
-
-
-
-
     </main>
+    <!-- footer -->
 
-    <footer>
+      <div>
+        <footer class="footer footer-center bg-[#1C1C1C] text-neutral-content  text-primary-content p-10">
+          <aside>
+            <a class="btn btn-ghost text-4xl"><span class="bg-btn-primary px-2 rounded-[50%] rotate-45"><i class="fa-solid fa-arrow-up text-black"></i></span> Rinterio</a>
+            <p class=" text-color-secondary">
+              The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+              Providing reliable tech since 1992
+            </p>
+           
+          </aside>
+          <aside class="-mt-8">
+            <div class="navbar">
+              
+              <div class=" justify-self-center lg:flex ">
+                <ul class="lg:gap-14 lg:flex flex-row text-[#E9E9E9]">
+                  <li><a>Home</a></li><br>
+                  <li><a>Services</a></li><br>
+                  <li><a>Portfolio</a></li><br>
+                  <li><a>Blogs</a></li><br>
+                  <li><a>Contact Us</a></li><br>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="justify-self-center">
+              <a class="btn bg-color-Third text-xl  rounded-3xl ">Book Consult <span class="bg-btn-primary px-2 rounded-[50%] rotate-45 border "><i class="fa-solid fa-arrow-up"></i></span> </a>
+            </div>
+          </aside>
 
-
-    </footer>
+        </footer>
+      </div>
+    
     
 </body>
 </html>
